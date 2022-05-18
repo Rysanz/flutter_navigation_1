@@ -46,7 +46,37 @@ class _HomePageState extends State<HomePage> {
             child: ListTile(
               title: Text("Cancer"),
             ),
-          )
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Leo"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Virgo"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Libra"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Scorpio"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Sagitarius"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Capricorn"),
+            ),
+          ),
         ],
       ),
     );
