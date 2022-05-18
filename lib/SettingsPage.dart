@@ -45,7 +45,12 @@ class _SettingsPageState extends State<SettingsPage> {
             leading: Icon(
               Icons.logout,
             ),
-            title: Text('Logout'),
+            title: Text('Logout', 
+            style: TextStyle(
+              color: Colors.red, 
+              fontWeight: FontWeight.bold
+              ),
+            ),
           ),
         ],
       ),

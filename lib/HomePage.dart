@@ -15,8 +15,39 @@ class _HomePageState extends State<HomePage> {
       appBar: new AppBar(
         title: new Text("ZODIAC"),
       ),
-      body: new Center(
-        child:  new Text("THIS IS ZODIAC PAGE"),
+      body: ListView(
+        children: [
+          Card(
+            child: ListTile(
+              title: Text("Aquarius"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Pisces"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Aries"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Taurus"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Gemini"),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: Text("Cancer"),
+            ),
+          )
+        ],
       ),
     );
   }
